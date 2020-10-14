@@ -96,7 +96,7 @@ export default function Snackbar({ children }) {
         }}
       >
         {/* This div will be rendered with CSSTransition classNames */}
-        <div>
+        <div snackbar-wrapper="1">
           <div snackbar-root="1" className={styles.snackbar} style={customStyles}>
             {/* Snackbar's text */}
             <div className={styles.snackbar__text}>{text}</div>
